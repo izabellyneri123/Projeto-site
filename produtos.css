@@ -1,0 +1,106 @@
+body{
+    background: green;
+}
+
+
+header{
+    background: rgb(0, 27, 0)
+    padding 20px 0;
+}
+
+.logo{
+    width: 80px;
+    border-radius: 50px 50px;
+}
+
+.caixa{
+    position: relative;
+    width: 80%;
+    margin-left: 80%;
+    border-radius: 50px 50px;
+}
+
+nav{
+    position: relative;
+    top: 100%;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    margin: 0 1.5%;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: red;
+}
+
+.produtos li:active{
+    border-color: green;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-descrição{
+    font-size: 18px;
+}
+
+.produtos-preço{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.imagem{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background: url(bg.jpg);
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
